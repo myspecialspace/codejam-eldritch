@@ -12,6 +12,7 @@ body {
   color: #fff;
   text-align: center;
   background: url('../assets/home.png') center/cover, rgba(0, 0, 0, 0.5);
+  /*background: url('../../assets/home.png') center/cover, rgba(0, 0, 0, 0.5);*/
   background-blend-mode: multiply;
   transition: background-image 1s ease-in-out;
   background-position: 50%;
@@ -39,6 +40,10 @@ body {
   min-height: 421px;
 }
 
+.favicon {
+  background-image: url("../assets/favicon.ico");
+}
+
 .ancients-container {
   display: flex;
   flex-direction: inherit;
@@ -63,19 +68,19 @@ body {
 }
 
 #azathoth {
-  background-image: url('../../assets/Ancients/Azathoth.png');
+  background-image: url("../assets/Ancients/Azathoth.png");
 }
 
 #cthulthu {
-  background-image: url("/assets/Ancients/Cthulthu.png");
+  background-image: url("../assets/Ancients/Cthulthu.png");
 }
 
 #iogSothoth {
-  background-image: url("/assets/Ancients/IogSothoth.png");
+  background-image: url("../assets/Ancients/IogSothoth.png");
 }
 
 #shubNiggurath {
-  background-image: url("/assets/Ancients/ShubNiggurath.png");
+  background-image: url("../assets/Ancients/ShubNiggurath.png");
 }
 
 .difficulty-container {
@@ -166,7 +171,7 @@ body {
 
 .deck-container .deck {
   cursor: pointer;
-  background-image: url("/assets/mythicCardBackground.png");
+  background-image: url("../assets/mythicCardBackground.png");
 }
 
 .footer {
@@ -185,6 +190,16 @@ body {
   color: var(--white-color);
 }
 
+img.rss {
+  background-image: url("../assets/rsschool.svg");
+}
+
+img.github {
+  background-image: url("../assets/github.svg");
+}
+
+
+
 ul {
   display: flex;
   flex-direction: row;
@@ -201,8 +216,8 @@ li {
 /*==================================================================================*/
 .settings-button {
   background-color: rgb(255, 255, 255);
-  -webkit-mask: url("../assets/svg/settings.svg") no-repeat center;
-  mask: url("../assets/svg/settings.svg") no-repeat center;
+  /* -webkit-mask: url("../assets/svg/settings.svg") no-repeat center; */
+  /* mask: url("../assets/svg/settings.svg") no-repeat center; */
   position: absolute;
   left: 20px;
   top: 640px;
@@ -258,8 +273,8 @@ li {
 
 .todo-button {
   background-color: rgb(255, 255, 255);
-  -webkit-mask: url("../assets/svg/todo.svg") no-repeat center;
-  mask: url("../assets/svg/todo.svg") no-repeat center;
+  /* -webkit-mask: url("../assets/svg/todo.svg") no-repeat center; */
+  /* mask: url("../assets/svg/todo.svg") no-repeat center; */
   position: absolute;
   right: 20px;
   top: 640px;
@@ -321,11 +336,11 @@ h3.title {
   cursor: pointer;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url(../assets/svg/delete.svg);
+  /* background-image: url(../assets/svg/delete.svg); */
 }
 
 .delete:hover{
-  background-image: url(../assets/svg/delete1.svg);
+  /* background-image: url(../assets/svg/delete1.svg); */
 }
 
 
@@ -355,7 +370,6 @@ h3.title {
   margin: 20px 89px 20px 0px;
   border-left: 0;
   color: white;
-  float: right;
 }
 
 #add-task #hide{
