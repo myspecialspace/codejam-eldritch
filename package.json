@@ -4,8 +4,6 @@
   "description": "## Описание проекта В рамках данного CodeJam необходимо будет создать небольшое приложение-хелпер для настольной игры \"Древний Ужас\"",
   "main": "./script.js",
   "scripts": {
-    "test": "/.(png|svg|jpg|jpeg|gif)$/i",
-    "type": "asset/resource",
     "build": "./node_modules/.bin/webpack --progress",
     "start": "./node_modules/.bin/webpack-dev-server"
   },
